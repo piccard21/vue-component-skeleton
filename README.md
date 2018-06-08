@@ -17,7 +17,7 @@ yarn run build
 
 ## Configuration
 
-- Change the filename *VueComponentSkeleton.vue* to yours, i.e. *MyVueComponent.vue*
+- change the filename *VueComponentSkeleton.vue* to yours, i.e. *MyVueComponent.vue*
 - replace inside the following files *vue-component-skeleton* with your wanted name
 - do it as well for *VueComponentSkeleton*
 - files:
@@ -41,7 +41,7 @@ yarn add my-vue-component
  
 ## Features
 
-- Loadash webpack
+- Loadash webpack cherrypicking
 - Library var-name
 - filename
 - import / require
