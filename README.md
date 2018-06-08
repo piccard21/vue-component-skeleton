@@ -17,9 +17,9 @@ npm run build
 
 ## Configuration
 
-- Change the vue-filename *VueComponentSkeleton* to yours, i.e. *MyVueComponent*
+- Change the filename *VueComponentSkeleton.vue* to yours, i.e. *MyVueComponent.vue*
 - replace inside the following files *vue-component-skeleton* with your wanted name
-- do it as well for and *VueComponentSkeleton*
+- do it as well for *VueComponentSkeleton*
 
 ## Ready for development
 
