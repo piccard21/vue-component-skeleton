@@ -6,13 +6,13 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # watch while development
-npm run watch
+yarn run watch
 
 # build for production with minification
-npm run build
+yarn run build
 ```
 
 ## Configuration
