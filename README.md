@@ -21,8 +21,7 @@ yarn run build
 - replace inside the following files *vue-component-skeleton* with your wanted name
 - do it as well for *VueComponentSkeleton*
 - files:
-
-	_ install.js
+	- install.js
 	- package.json
 	- webpack.config.js
 
