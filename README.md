@@ -20,6 +20,10 @@ yarn run build
 - Change the filename *VueComponentSkeleton.vue* to yours, i.e. *MyVueComponent.vue*
 - replace inside the following files *vue-component-skeleton* with your wanted name
 - do it as well for *VueComponentSkeleton*
+- files:
+	_ install.js
+	- package.json
+	- webpack.config.js
 
 ## Ready for development
 
