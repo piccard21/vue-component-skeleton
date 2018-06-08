@@ -38,6 +38,11 @@ goto a project of yours wich will add the component
 yarn link "my-vue-component"
 yarn add my-vue-component
 ``` 
+ 
+## Features
 
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- Loadash webpack
+- Library var-name
+- filename
+- import / require
+- scss
