@@ -51,9 +51,7 @@ var config = {
     },
     devtool: '#eval-source-map',
     externals: {
-        'vue': 'vue',
-        'vue-slider-component': 'vue-slider-component',
-        'vue-scrollto': 'vue-scrollto'
+        'vue': 'vue'
     }
 }
 module.exports = [
