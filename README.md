@@ -41,8 +41,9 @@ yarn add my-vue-component
  
 ## Features
 
-- Loadash webpack cherrypicking
-- Library var-name
-- filename
-- import / require
-- scss
+- create smaller Lodash builds lodash-webpack-plugin by cherry-picking Lodash modules
+- use your component inside a browser-envirnoment, i.e. by 
+	- *<script type="text/javascript" src="vue-my-component.js"></script>*
+- import your component in a Node.js-based development 
+	- import VueMyComponent from 'vue-my-component'; 
+- use scss inside your SFC
