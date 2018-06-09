@@ -35,8 +35,8 @@ yarn watch
 goto a project of yours wich will add the component
 
 ``` 
-yarn link "my-vue-component"
-yarn add my-vue-component
+yarn link "vue-my-component"
+yarn add vue-my-component
 ``` 
  
 ## Features
