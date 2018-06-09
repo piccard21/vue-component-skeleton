@@ -11,7 +11,7 @@
     "build": "webpack --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.5.11",
+    "vue": "^2.5.11"
   },
   "browserslist": [
     "> 1%",
