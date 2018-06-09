@@ -17,9 +17,9 @@ yarn run build
 
 ## Configuration
 
-- change the filename *VueComponentSkeleton.vue* to yours, i.e. *MyVueComponent.vue*
-- replace inside the following files *vue-component-skeleton* with your wanted name
-- do it as well for *VueComponentSkeleton*
+- change the filename **VueComponentSkeleton.vue** to yours, i.e. **MyVueComponent.vue**
+- replace inside the following files **vue-component-skeleton** with your wanted name
+- do it as well for **VueComponentSkeleton**
 - files:
 	- install.js
 	- package.json
@@ -41,9 +41,15 @@ yarn add my-vue-component
  
 ## Features
 
-- create smaller Lodash builds lodash-webpack-plugin by cherry-picking Lodash modules
+- create smaller Lodash builds with the **lodash-webpack-plugin** by cherry-picking Lodash modules
 - use your component inside a browser-envirnoment, i.e. by 
-	- *<script type="text/javascript" src="vue-my-component.js"></script>*
+
+``` 
+<script type="text/javascript" src="vue-my-component.js"></script>
+``` 
 - import your component in a Node.js-based development 
-	- import VueMyComponent from 'vue-my-component'; 
-- use scss inside your SFC
+
+```
+import VueMyComponent from 'vue-my-component'
+``` 
+- use SCSS inside your SFC
