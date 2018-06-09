@@ -46,19 +46,20 @@ yarn run build
 
 ## Ready for development
 
+- link the package
+
 ``` 
 yarn link
-yarn watch
 ``` 
 
-goto a project of yours wich will add the component
-
+- goto a project of yours wich will add the component
 ``` 
+cd ../project
 yarn link "vue-my-component"
 yarn add vue-my-component
 ``` 
 
-now you can develop your component by
+- now you can develop your component by
 ``` 
 cd vue-my-component
 yarn watch
