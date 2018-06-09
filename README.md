@@ -42,7 +42,7 @@ yarn add vue-my-component
 ## Features
 
 - create smaller Lodash builds with the **lodash-webpack-plugin** by cherry-picking Lodash modules
-- use your component inside a browser-envirnoment, i.e. by 
+- export the component as a library 
 
 ``` 
 <script type="text/javascript" src="vue-my-component.js"></script>
