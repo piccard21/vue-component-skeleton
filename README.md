@@ -56,7 +56,6 @@ yarn link
 ``` 
 cd ../project
 yarn link "vue-my-component"
-yarn add vue-my-component
 ``` 
 
 - now you can develop your component by
@@ -71,3 +70,28 @@ yarn watch
 cd ../project
 yarn run dev
 ``` 
+
+- register the component
+
+``` 
+import VueMyComponent from 'vue-my-component'
+Vue.component("vue-my-component", VueMyComponent);
+``` 
+
+- ... and use it
+
+``` 
+  <template>
+        <div>
+          <vue-my-component></vue-my-component>
+        </div>
+  </template>
+
+<script> 
+    export default {}
+</script>
+``` 
+
+
+
+
