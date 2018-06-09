@@ -1,6 +1,25 @@
 # vue-component-skeleton
 
 > Starter for component-development with VueJS
+ 
+## Features
+
+- create smaller Lodash builds with the **lodash-webpack-plugin** by cherry-picking Lodash modules
+- export the component as a library 
+
+``` 
+<script type="text/javascript" src="vue-my-component.js"></script>
+<script type="text/javascript">
+  Vue.use(VueMyComponent);
+</script>
+``` 
+- import your component in a Node.js-based development 
+
+```
+import VueMyComponent from 'vue-my-component'
+``` 
+- use SCSS inside your SFC
+
 
 ## Build Setup
 
@@ -38,21 +57,16 @@ goto a project of yours wich will add the component
 yarn link "vue-my-component"
 yarn add vue-my-component
 ``` 
- 
-## Features
 
-- create smaller Lodash builds with the **lodash-webpack-plugin** by cherry-picking Lodash modules
-- export the component as a library 
+now you can develop your component by
+``` 
+cd vue-my-component
+yarn watch
+``` 
+
+... while you can test it live inside another project
 
 ``` 
-<script type="text/javascript" src="vue-my-component.js"></script>
-<script type="text/javascript">
-  Vue.use(VueMyComponent);
-</script>
+cd ../project
+yarn run dev
 ``` 
-- import your component in a Node.js-based development 
-
-```
-import VueMyComponent from 'vue-my-component'
-``` 
-- use SCSS inside your SFC
