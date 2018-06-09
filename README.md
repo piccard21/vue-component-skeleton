@@ -17,7 +17,7 @@ yarn run build
 
 ## Configuration
 
-- change the filename **VueComponentSkeleton.vue** to yours, i.e. **MyVueComponent.vue**
+- change the filename **VueComponentSkeleton.vue** to yours, i.e. **VueMyComponent.vue**
 - replace inside the following files **vue-component-skeleton** with your wanted name
 - do it as well for **VueComponentSkeleton**
 - files:
@@ -46,6 +46,9 @@ yarn add my-vue-component
 
 ``` 
 <script type="text/javascript" src="vue-my-component.js"></script>
+<script type="text/javascript">
+  Vue.use(VueMyComponent);
+</script>
 ``` 
 - import your component in a Node.js-based development 
 
